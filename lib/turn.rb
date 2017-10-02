@@ -32,7 +32,6 @@ def move(board, move, player = "X")
 end
 
 def turn(board)
-  index = 10
 while !valid_move?(board,index) do
   puts "Please enter 1-9:"
   input = gets.strip
